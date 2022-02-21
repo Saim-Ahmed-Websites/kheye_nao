@@ -46,7 +46,7 @@ li.nav-item a {
     text-align: center;
 }
 .nav_btn:active {
-    outline: 3px solid #FDA085;
+    border: 3px solid #FDA085;
     background: none;
     transform: scale(.9);
 }

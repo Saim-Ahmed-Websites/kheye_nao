@@ -35,7 +35,7 @@ html{
 }
 
 .nav_btn:active {
-    outline: 1px solid #FDA085;
+    border: 1px solid #FDA085;
 }
 
 .pRight h2{
