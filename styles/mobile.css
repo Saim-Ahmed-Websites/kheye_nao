@@ -1,0 +1,200 @@
+@media(max-width: 768px) {
+html{
+    font-size: 27%;
+}
+/* -------------SECTIONS-------------------- */
+    section#intro{
+        height: 45vh;
+    }
+    section#about{
+        min-height: 45vh;
+        background-size: 100% 55%;
+    }
+    section#products{
+        min-height: 45vh;
+    }
+    section#eat{
+        min-height: 25vh;
+    }
+    section#contact{
+        min-height: 40vh;
+    }
+/* ---------------EXTRA------------------ */
+.procuct{
+    min-height: 35vh;
+}
+#eat .container h1{
+    font-size: 13rem;
+}
+}
+.contactRight .wrapper form input{
+    border: 1px solid #FDA085;
+}
+
+.nav_btn:active {
+    outline: 1px solid #FDA085;
+}
+
+/* ########################################################################################## */
+
+
+@media(max-width: 575px) {
+html{
+    font-size: 23%;
+}
+/* -------------SECTIONS-------------------- */
+    section#intro{
+        height: 35vh;
+    }
+    section#about{
+        min-height: 40vh;
+    }
+    section#products{
+        min-height: 40vh;
+    }
+    section#eat{
+        min-height: 15vh;
+    }
+    section#contact{
+        min-height: 40vh;
+    }
+/* ---------------EXTRA------------------ */
+.container{
+    max-width: 500px;
+}
+.procuct{
+    min-height: 30vh;
+}
+.pRight{
+    min-height: 22vh;
+}
+#eat .container h1{
+    font-size: 13rem;
+}
+}
+
+
+
+/* ########################################################################################################## */
+
+@media(max-width: 540px) {
+    /* UNIVERSIAL */
+    html{
+        font-size: 28%;
+    }
+    .container{
+        max-width: 425px;
+    }
+/* -----------------SECTIONS-------------------- */
+    section#intro{
+        height: 35vh;
+    }
+    section#about{
+        min-height: 35vh;
+    }
+    section#products{
+        min-height: 35vh;
+    }
+    section#eat{
+        min-height: 15vh;
+    }
+    section#contact{
+        min-height: 35vh;
+    }
+/* ---------------EXTRA------------------ */
+
+/* ABOUT SECTION */
+.container.about{
+    flex-direction: column;
+}
+.left{
+    width: 85%;
+}
+.left h3{
+   font-size: 6.5rem;
+}
+.right.my-5 {
+    align-items: center;
+    text-align: center;
+    width: 85%;
+}
+.right p {
+    font-size: 3.5rem;
+    margin: 0 !important;
+    margin-bottom: 6rem !important;
+}
+
+/* PRODUCT SECTION */
+.procuct {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+.procuct.reverse {
+    flex-direction: column-reverse;
+}
+.pLeft {
+    width: 90%;
+    margin-bottom: 5rem;
+}
+.pRight {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 20vh;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+h3.productsHeader:after{
+    right:43%;
+}
+.productsHeader{
+    font-size: 6.5rem !important;
+}
+/* EAT  SECTION */
+section#eat{
+    min-height: 10vh;
+}
+#eat .container h1{
+    font-size: 7rem;
+}
+/* CONTACT  SECTION */
+#contact .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.contactLeft {
+    width: 90%;
+    justify-content: center;
+    padding: 5rem 0rem;
+}
+.wrapper {
+    align-items: center;
+    justify-content: space-around;
+}
+.contactRight {
+    width: 75%;
+    padding-bottom: 5rem;
+}
+
+}
+
+/* ################################################################################################ */
+
+@media(max-width: 428px) {
+    /* UNIVERSIAL */
+    html{
+        font-size: 20%;
+    }
+.container{
+    max-width:325px ;
+}
+/* SECTIONS */
+section#intro{
+    height: 28vh;
+}
+}
