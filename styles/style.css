@@ -155,7 +155,7 @@ header{
 }
 
 .aboutBtn {
-    width: 20rem;
+    width: 20rem !important;
     height: 6rem;
     margin-left: 0 !important;
 }
@@ -224,13 +224,14 @@ h3.productsHeader:after {
 }
 
 .pRight h2 {
-    font-size: 2.3rem;
-    LETTER-SPACING: .8rem;
+    font-size: 3rem;
+    LETTER-SPACING: 1.2rem;
     font-weight: bold;
 }
 
 .pRight p {
     font-size: 2rem;
+    letter-spacing: .11rem;
 }
 
 li.productBtn {

@@ -1,6 +1,9 @@
 @media(max-width: 768px) {
 html{
-    font-size: 27%;
+    font-size: 30%;
+}
+.container{
+    max-width: 680px;
 }
 /* -------------SECTIONS-------------------- */
     section#intro{
@@ -35,55 +38,59 @@ html{
     outline: 1px solid #FDA085;
 }
 
+.pRight h2{
+    font-size: 3.5rem;
+}
+.pRight p{
+    font-size: 2.7rem;
+    letter-spacing: .1rem;
+}
+.right p{
+    letter-spacing: .1rem;
+}
+li.nav-item a{
+    font-size: 3rem;
+}
+.nav_btn a{
+    font-size: 3rem !important;
+}
+.nav_btn{
+    width: 15rem;
+}
+a.navbar-brand.logo{
+    font-size: 4.5rem;
+}
+button.navbar-toggler.collapsed{
+    font-size: 2.5rem;
+}
+button.navbar-toggler{
+    font-size: 2.5rem;
+}
+
+li.productBtn a{
+    font-size: 2.5rem !important;
+}
 /* ########################################################################################## */
-
-
-@media(max-width: 575px) {
-html{
-    font-size: 23%;
-}
-/* -------------SECTIONS-------------------- */
-    section#intro{
-        height: 35vh;
-    }
-    section#about{
-        min-height: 40vh;
-    }
-    section#products{
-        min-height: 40vh;
-    }
-    section#eat{
-        min-height: 15vh;
-    }
-    section#contact{
-        min-height: 40vh;
-    }
-/* ---------------EXTRA------------------ */
-.container{
-    max-width: 500px;
-}
-.procuct{
-    min-height: 30vh;
-}
-.pRight{
-    min-height: 22vh;
-}
-#eat .container h1{
-    font-size: 13rem;
-}
-}
-
-
-
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
+/* ########################################################################################################## */
 /* ########################################################################################################## */
 
-@media(max-width: 540px) {
+@media(max-width: 575px) {
     /* UNIVERSIAL */
     html{
         font-size: 28%;
     }
     .container{
-        max-width: 425px;
+        max-width: 680px;
     }
 /* -----------------SECTIONS-------------------- */
     section#intro{
@@ -119,11 +126,21 @@ html{
     width: 85%;
 }
 .right p {
-    font-size: 3.5rem;
+    font-size:3.9rem;
     margin: 0 !important;
     margin-bottom: 6rem !important;
 }
-
+.aboutBtn{
+    width: 40rem !important;
+    height: 10rem;
+    margin-left: 0 !important;
+}
+.nav_btn a{
+    font-size: 4rem !important;
+}
+.nav_btn{
+    width: 25rem;
+}
 /* PRODUCT SECTION */
 .procuct {
     flex-direction: column;
@@ -143,7 +160,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    min-height: 20vh;
+    min-height: 45vh;
     margin-bottom: 5rem;
     text-align: center;
 }
@@ -153,12 +170,21 @@ h3.productsHeader:after{
 .productsHeader{
     font-size: 6.5rem !important;
 }
+li.productBtn a{
+    font-size: 4rem !important;
+}
+.pRight h2{
+    font-size: 5rem;
+}
+.pRight p{
+    font-size: 3.9rem;
+}
 /* EAT  SECTION */
 section#eat{
     min-height: 10vh;
 }
 #eat .container h1{
-    font-size: 7rem;
+    font-size: 10rem;
 }
 /* CONTACT  SECTION */
 #contact .container {
@@ -180,21 +206,33 @@ section#eat{
     width: 75%;
     padding-bottom: 5rem;
 }
-
+li.productBtn{
+    width: 80rem;
+    min-height: 10rem;
+}
+.contactLeft .wrapper h3{
+    font-size: 7rem;
+}
+.contactLeft .wrapper p{
+    font-size: 3.5rem;
 }
 
-/* ################################################################################################ */
+.contactRight .wrapper{
+    min-height: 80rem;
+    width: 85%;
+    justify-content: space-around;
+}
+.contactRight .wrapper form input{
+    height: 8.5rem;
+    margin-bottom: 3rem;
+    font-size: 2.8rem;
+}
+.contactRight .wrapper form .text-area{
+    height: 15rem;
+}
+.contactBtn{
+    width: 100% !important;
+    height: 10rem !important;
+}
 
-@media(max-width: 428px) {
-    /* UNIVERSIAL */
-    html{
-        font-size: 20%;
-    }
-.container{
-    max-width:325px ;
-}
-/* SECTIONS */
-section#intro{
-    height: 28vh;
-}
 }
