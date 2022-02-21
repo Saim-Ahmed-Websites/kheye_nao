@@ -1,0 +1,85 @@
+@media(max-width: 1399px) {
+    html{
+        font-size: 52.5%;
+
+    }
+
+/* -------------SECTIONS-------------------- */
+    section#about{
+        min-height: 90vh;
+    }
+    section#products{
+        min-height: 90vh;
+    }
+    section#contact{
+        min-height: 90vh;
+    }
+/* ---------------EXTRA------------------ */
+    .procuct{
+        min-height: 60vh;
+    }
+    .pRight{
+        min-height: 45vh;
+    }
+    .pLeft{
+        min-height: 0;
+    }
+}
+
+
+/* ##################################################################################################################### */
+@media(max-width: 1200px) {
+    html{
+        font-size: 42.5%;
+
+    }
+
+/* -------------SECTIONS-------------------- */
+    section#intro{
+        height: 75vh;
+    }
+    section#about{
+        min-height: 80vh;
+    }
+    section#products{
+        min-height: 80vh;
+    }
+    section#contact{
+        min-height: 80vh;
+    }
+/* ---------------EXTRA------------------ */
+    
+}
+
+/* ############################################################################################################### */
+@media(max-width: 992px) {
+    html{
+        font-size: 32.5%;
+
+    }
+
+/* -------------SECTIONS-------------------- */
+    section#intro{
+        height: 65vh;
+    }
+    section#about{
+        min-height: 60vh;
+    }
+    section#products{
+        min-height: 60vh;
+    }
+    section#eat{
+        min-height: 25vh;
+    }
+    section#contact{
+        min-height: 50vh;
+    }
+/* ---------------EXTRA------------------ */
+.procuct{
+    min-height: 40vh;
+}
+.pRight{
+    min-height: 30vh;
+}
+    
+}
